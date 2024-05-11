@@ -1,0 +1,27 @@
+<HTML>
+<HEAD>
+<TITLE>
+Log in to YOUR Online Book Shop
+</TITLE>
+<SCRIPT>
+</SCRIPT>
+</HEAD>
+<BODY>
+<A href="index.html"><img id="Head" border="0" height="131" src="images/header_bg.png"></A>
+<FONT color="Green"><H2>New Account</H2></FONT>
+<FONT color="Brown"><H3><B>Enter your information correctly.</B> Fields marked * are mandatory.</H3></FONT>
+
+<FORM action="newacc.php" method="post">
+Name*: <input type="text" name="name"/></br></br>
+Date of Birth: <input type="text" name="dob"/></br></br>
+Email-Id<span class="required">*</span>: <input type="text" name="email"/></br></br>
+Contact No.: <input type="text" name="contact"/></br></br>
+User Name<span class="required">*</span>: <input type="text" name="user"/></br></br>
+Password<span class="required">*</span>: <input type="Password" name="pwd"/></br></br>
+Re-enter the Password<span class="required">*</span>: <input type="Password" name="rpwd"/></br></br>
+Enter the characters shown below<span class="required">*</span>: <input type="text" name="captcha"/></br></br>
+<img id="Wldch" border="0" height="50" width="300" src="WildChars.png"></br></br>
+<input type="Submit" value="Submit"/>	<input type="Reset" value="Reset"/>	<button type="button" onclick="document.location='index.html'">Cancel</button>
+</FORM>
+</BODY>
+</HTML>
